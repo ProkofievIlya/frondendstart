@@ -81,12 +81,21 @@ body {
     background: url(../images/girl.png) 100% 100% no-repeat;
 }
 
-.icon__png {
+.back__rec {
     position: relative;
     margin: 0;
     padding: 0;
     top: 366px;
     right: -315px;
+    z-index: -1;
+}
+
+.back__el21 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: -300px;
     z-index: -1;
 }
 
@@ -190,6 +199,65 @@ body {
     right: 630px;
 }
 
+.learn {
+    margin: 0 auto;
+    padding: 168px 230px 0;
+    background: #FBFBFC;
+}
+
+.learn__first {
+    display: flex;
+    justify-content: space-between;
+    top: 169px;
+}
+
+.learn__title,
+.learn__counters-number {
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.learn__counters-descript {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #19191C;
+    border-bottom: 4px solid #19191C;
+    display: inline-block;
+    padding-bottom: 20px;
+    width: 254px;
+}
+
+.learn__counters-info {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #6D6D77;
+}
+
+.learn__description {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #6D6D77;
+    margin: 0 0 62px;
+    width: 648px;
+    padding-top: 28px;
+}
+
+.learn__counters {
+    display: flex;
+    justify-content: space-between;
+    gap: 103px;
+    padding: 0;
+    padding-right: 20px;
+    margin: 0;
+}
+
+/* ------------------------------------------------ */
 footer {
     background: #19191C;
     margin: 0;
